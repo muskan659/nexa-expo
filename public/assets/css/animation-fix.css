@@ -1,0 +1,29 @@
+/* Ensure animated elements are visible (prevent WOW.js from hiding them initially) */
+.wow {
+    visibility: visible !important;
+}
+
+/* Allow GSAP to control animations */
+.wow.animated {
+    animation: none !important;
+}
+
+/* Prevent scrolling during loader */
+body:not(.loaded) {
+    overflow: hidden;
+}
+
+/* Make sure loader is visible initially */
+.loader-wrap {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Ensure content is visible (GSAP will handle animations) */
+.tc-header-style1,
+.tc-navbar-style1,
+header,
+.header {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
