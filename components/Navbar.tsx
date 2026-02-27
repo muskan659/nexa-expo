@@ -1,17 +1,28 @@
 'use client'
 
+import { useState, useEffect } from 'react'
+
 export default function Navbar() {
+  const [currentLang, setCurrentLang] = useState('en')
+  
+  useEffect(() => {
+    const html = document.documentElement
+    const lang = html.getAttribute('lang') || 'en'
+    setCurrentLang(lang)
+  }, [])
+  
   const toggleLanguage = () => {
     const html = document.documentElement
     const currentDir = html.getAttribute('dir')
-    const currentLang = html.getAttribute('lang')
     
     if (currentDir === 'rtl') {
       html.setAttribute('dir', 'ltr')
       html.setAttribute('lang', 'en')
+      setCurrentLang('en')
     } else {
       html.setAttribute('dir', 'rtl')
       html.setAttribute('lang', 'ar')
+      setCurrentLang('ar')
     }
   }
 
@@ -69,17 +80,28 @@ export default function Navbar() {
               </li>
             </ul>
             <div className="nav-side">
-              <a 
-                href="#" 
-                className="icon ms-3 lang-switcher" 
-                onClick={(e) => {
-                  e.preventDefault()
-                  toggleLanguage()
+              <button 
+                className="btn btn-link icon ms-3 lang-switcher" 
+                onClick={toggleLanguage}
+                aria-label="Toggle Language"
+                style={{
+                  border: '1px solid rgba(255,255,255,0.3)',
+                  borderRadius: '25px',
+                  padding: '8px 20px',
+                  color: '#fff',
+                  textDecoration: 'none',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  transition: 'all 0.3s ease',
+                  backgroundColor: currentLang === 'ar' ? 'rgba(255,255,255,0.1)' : 'transparent'
                 }}
               >
-                <span className="ltr-content">EN / AR</span>
-                <span className="rtl-content" style={{display: 'none'}}>AR / EN</span>
-              </a>
+                <i className="fa fa-globe" style={{fontSize: '18px'}}></i>
+                <span style={{fontWeight: '600'}}>
+                  {currentLang === 'en' ? 'EN' : 'AR'}
+                </span>
+              </button>
             </div>
           </div>
         </div>

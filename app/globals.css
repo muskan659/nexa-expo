@@ -33,3 +33,23 @@ a {
 [dir="rtl"] .offset-lg-2 {
   margin-inline-start: 0 !important;
 }
+
+/* Fix accordion arrow alignment in RTL mode */
+[dir="rtl"] .accordion-button::after {
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
+
+[dir="rtl"] .tc-process-style2 .accordion-item .accordion-button {
+  text-align: right;
+}
+
+[dir="rtl"] .tc-process-style2 .accordion-item .accordion-button .num {
+  margin-inline-end: 0 !important;
+  margin-inline-start: 30px !important;
+}
+
+[dir="rtl"] .tc-process-style2 .accordion-item .accordion-body {
+  padding-inline-start: 50px !important;
+  padding-inline-end: 85px !important;
+}
