@@ -80,8 +80,9 @@ html[lang=ar] .home-style1 .tc-header-style1 .header-slider .swiper-pagination {
   right: 4vw;
 }
 html[lang=ar] .home-style1 .tc-header-style1 .header-slider .slider-controls {
-  right: auto;
-  left: 40px;
+left:0px !important;
+bottom: 135px !important;
+right: 0px !important;
 }
 html[lang=ar] .home-style1 .tc-header-style1 .header-slider .slider-card .info h1 {
   font-size: calc(10vw + 10px);
@@ -522,6 +523,7 @@ html[lang=ar] .home-style1 .loader-wrap {
   .tc-experience-style1 .c-line {
     -o-object-fit: contain;
        object-fit: contain;
+       display: none;
   }
   .tc-experience-style1 .img {
     -webkit-transform: rotate(0);
@@ -607,6 +609,9 @@ html[lang=ar] .home-style1 .loader-wrap {
     padding: 0;
     margin-top: 50px !important;
   }
+  .tc-services-style1 .service-card .arrow {
+    display: none;
+  }
 }
 /* --------------- process style1 --------------- */
 .tc-process-style1 {
@@ -620,6 +625,7 @@ html[lang=ar] .home-style1 .loader-wrap {
 .tc-process-style1 .c-line {
   position: absolute;
   bottom: 100px;
+  
   right: 0;
   width: 50%;
   height: 550px;
@@ -1172,6 +1178,9 @@ html[lang=ar] .home-style1 .loader-wrap {
   .tc-blog-style1 .blog-card .info .date {
     width: 100%;
     margin-bottom: 15px;
+  }
+  .tc-chat-style1 .c-line {
+    display: none;
   }
 }
 /* --------------- chat style1 --------------- */
@@ -1953,11 +1962,12 @@ home 2 style
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-direction: column;
+    /* -ms-flex-wrap: wrap;
+        flex-wrap: wrap; */
   }
   .tc-process-style2 .imgs .img {
-    width: 48% !important;
+    width: 100% !important;
     height: 250px !important;
     border-radius: 30px !important;
     margin: 1% !important;

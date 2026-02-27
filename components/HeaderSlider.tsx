@@ -17,7 +17,10 @@ export default function HeaderSlider() {
                       <span className="rtl-content" style={{display: 'none'}}> معرض نيكسا</span>
                     </h1>
                     <h5 className="fsz-30 mt-30 fw-400">
-                      <span className="ltr-content">EXPO<br />For Pack & Print</span>
+                      <p className="ltr-content">EXPOs</p>
+                  
+                      <p className="ltr-content"> For Pack & Print</p>
+
                       <span className="rtl-content" style={{display: 'none'}}>للتغليف و الطباعه</span>
                     </h5>
                   </div>
@@ -43,7 +46,10 @@ export default function HeaderSlider() {
                       <span className="rtl-content" style={{display: 'none'}}>معرض نيكسا</span>
                     </h1>
                     <h5 className="fsz-30 mt-30 fw-400">
-                      <span className="ltr-content">EXPO<br />For Pack & Print</span>
+                        <p className="ltr-content">EXPOs</p>
+                  
+                      <p className="ltr-content"> For Pack & Print</p>
+
                       <span className="rtl-content" style={{display: 'none'}}>للتغليف و الطباعه</span>
                     </h5>
                   </div>
@@ -69,7 +75,10 @@ export default function HeaderSlider() {
                       <span className="rtl-content" style={{display: 'none'}}>معرض نيكسا</span>
                     </h1>
                     <h5 className="fsz-30 mt-30 fw-400">
-                      <span className="ltr-content">EXPO<br />For Pack & Print</span>
+                         <p className="ltr-content">EXPOs</p>
+                  
+                      <p className="ltr-content"> For Pack & Print</p>
+
                       <span className="rtl-content" style={{display: 'none'}}>للتغليف و الطباعه</span>
                     </h5>
                   </div>

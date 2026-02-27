@@ -19,7 +19,7 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark tc-navbar-style1 section-padding-x">
       <div className="container-fluid content">
         <div>
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="#" style={{margin:"auto"}}>
             <img src="/assets/img/home1/logo.png" alt="" className="logo" />
           </a>
         </div>

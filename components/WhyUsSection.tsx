@@ -184,7 +184,7 @@ export default function WhyUsSection() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 offset-lg-2">
+            <div className="col-12 col-lg-4 offset-lg-2">
               <div className="img" data-wow-delay="0.5s">
                 <img src="/assets/img/home1/process.jpg" alt="" className="img-cover" />
               </div>
