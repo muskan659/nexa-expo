@@ -320,7 +320,7 @@ text-align: center;
 
   [dir="rtl"] .nav-side .icon {
    
-    padding: 0.75rem 0;
+  margin-bottom: 10px;
     width: 100%;
     text-align: right;
     display: block;

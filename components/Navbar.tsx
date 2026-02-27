@@ -85,14 +85,12 @@ export default function Navbar() {
                 onClick={toggleLanguage}
                 aria-label="Toggle Language"
                 style={{
-                  border: '1px solid rgba(255,255,255,0.3)',
+                  border: '1px solid rgb(51 85 169 / 30%)',
                   borderRadius: '25px',
-                  padding: '8px 20px',
-                  color: '#fff',
+                  width: 'auto',
                   textDecoration: 'none',
                   display: 'flex',
                   alignItems: 'center',
-                  gap: '8px',
                   transition: 'all 0.3s ease',
                   backgroundColor: currentLang === 'ar' ? 'rgba(255,255,255,0.1)' : 'transparent'
                 }}
