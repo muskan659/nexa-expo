@@ -17,7 +17,7 @@ export default function IntroductionSection() {
               </h3>
               <div className="text fsz-15 color-666">
                 <span className="ltr-content">
-                  NEXA Expo is established as an integrated, multi-sector business platform in the
+                  EDITION CONCEPT is established as an integrated, multi-sector business platform in the
                   State of Kuwait, aiming to connect global suppliers with local entrepreneurs and
                   companies, while providing an interactive environment that supports industrial
                   and commercial growth.

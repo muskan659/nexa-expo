@@ -137,10 +137,10 @@ export default function ServicesSection() {
                 </h2>
                 <div className="text fsz-16 text-black/80 lh-4" style={{opacity: 0.5}}>
                   <span className="ltr-content">
-                    To position NEXA Expo as a leading regional platform and a key driver of
-                    innovation across various industrial and commercial sectors, contributing to
-                    the transformation of Kuwait into a regional hub for business and
-                    investment, in alignment with Kuwait Vision 2035.
+                      To position EDITION CONCEPTS as a leading regional platform and a key driver of
+                      innovation across various industrial and commercial sectors, contributing to
+                      the transformation of Kuwait into a regional hub for business and
+                      investment, in alignment with Kuwait Vision 2035.
                   </span>
                   <span className="rtl-content" style={{display: 'none'}}>
                     

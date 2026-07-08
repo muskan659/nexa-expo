@@ -47,8 +47,7 @@ export default function FounderSection() {
                         &quot;An entrepreneur with extensive experience in establishing and
                         managing businesses, possessing a solid understanding of business
                         ecosystems, supply chains, and entrepreneurial needs. She is the
-                        strategic force behind the vision and long-term direction of NEXA
-                        Expo.&quot;
+                        strategic force behind the vision and long-term direction of EDITION CONCEPT.&quot;
                       </span>
                       <span className="rtl-content" style={{display: 'none'}}>
                         &quot;

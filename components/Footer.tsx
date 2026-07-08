@@ -54,7 +54,7 @@ export default function Footer() {
                       <span className="rtl-content" style={{display: 'none'}}>مدينة الكويت، الكويت</span>
                     </a>
                   </li>
-                  <li><a href="mailto:info@nexaexpo.com">info@nexaexpo.com</a></li>
+                  <li><a href="mailto:info@edition.com">info@edition.com</a></li>
                   <li><a href="tel:+96512345678">(+965) 1234 5678</a></li>
                 </ul>
               </div>

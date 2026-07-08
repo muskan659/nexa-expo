@@ -90,13 +90,16 @@ export default function WhyKuwaitSection() {
                           <span className="ltr-content">
                             Small and medium enterprises represent the backbone of the
                             Kuwaiti economy.<br />
-                            -NEXA Expo works to support this segment by directly
+                            EDITION CONCEPT works to support this segment by directly
                             connecting them with suppliers and manufacturers, and by
                             providing practical solutions that contribute to improving
                             product quality and enhancing competitiveness.
                           </span>
                           <span className="rtl-content" style={{display: 'none'}}>
-                          تُعد المشاريع الصغيرة والمتوسطة العمود الفقري للاقتصاد الكويتي، ويعمل نيكسا إكسبو على دعم هذه الفئة عبر ربطها بالموردين والمصنعين مباشرة، وتقديم حلول عملية تسهم في رفع جودة المنتجات وتعزيز القدرة التنافسية
+                         چھوٹے اور درمیانے درجے کے کاروباری ادارے (SMEs) کویتی معیشت کی ریڑھ کی ہڈی کی حیثیت رکھتے ہیں۔<br /><br />
+
+**ایڈیشن کانسیپٹس** اس شعبے کی معاونت کے لیے انہیں براہِ راست سپلائرز اور مینوفیکچررز سے منسلک کرتا ہے، اور ایسے عملی حل فراہم کرتا ہے جو مصنوعات کے معیار کو بہتر بنانے، کاروباری کارکردگی میں اضافہ کرنے اور مارکیٹ میں مسابقتی صلاحیت کو مضبوط بنانے میں معاون ثابت ہوتے ہیں۔
+
                           </span>
                         </div>
                       </div>

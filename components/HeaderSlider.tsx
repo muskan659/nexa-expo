@@ -13,11 +13,11 @@ export default function HeaderSlider() {
                 <div className="row align-items-end gx-5">
                   <div className="col-lg-6 offset-lg-2">
                     <h1 data-swiper-parallax="-2000" className="js-title">
-                      <span className="ltr-content">Nexa</span>
-                      <span className="rtl-content" style={{display: 'none'}}> معرض نيكسا</span>
+                      <span className="ltr-content">Edition</span>
+                      <span className="rtl-content" style={{display: 'none'}}>  طبعة</span>
                     </h1>
                     <h5 className="fsz-30 mt-30 fw-400">
-                      <p className="ltr-content">EXPOs</p>
+                      <p className="ltr-content">CONCEPT</p>
                   
                       <p className="ltr-content"> For Pack & Print</p>
 
@@ -37,16 +37,16 @@ export default function HeaderSlider() {
             <div className="slider-card">
               <div className="img" data-swiper-parallax="1144.5">
                 <img src="/assets/img/home1/head_slide2.png" alt="" className="img-cover" />
-              </div>
+              </div>``
               <div className="info section-padding-x pb-70">
                 <div className="row align-items-end gx-5">
                   <div className="col-lg-6 offset-lg-2">
-                    <h1 data-swiper-parallax="-2000" className="js-title">
-                      <span className="ltr-content">Nexa</span>
-                      <span className="rtl-content" style={{display: 'none'}}>معرض نيكسا</span>
+                     <h1 data-swiper-parallax="-2000" className="js-title">
+                      <span className="ltr-content">Edition</span>
+                      <span className="rtl-content" style={{display: 'none'}}>  طبعة</span>
                     </h1>
                     <h5 className="fsz-30 mt-30 fw-400">
-                        <p className="ltr-content">EXPOs</p>
+                      <p className="ltr-content">CONCEPT</p>
                   
                       <p className="ltr-content"> For Pack & Print</p>
 
@@ -70,15 +70,13 @@ export default function HeaderSlider() {
               <div className="info section-padding-x pb-70">
                 <div className="row align-items-end gx-5">
                   <div className="col-lg-6 offset-lg-2">
-                    <h1 data-swiper-parallax="-2000" className="js-title">
-                      <span className="ltr-content">Nexa</span>
-                      <span className="rtl-content" style={{display: 'none'}}>معرض نيكسا</span>
+                     <h1 data-swiper-parallax="-2000" className="js-title">
+                      <span className="ltr-content">Edition</span>
+                      <span className="rtl-content" style={{display: 'none'}}>  طبعة</span>
                     </h1>
                     <h5 className="fsz-30 mt-30 fw-400">
-                         <p className="ltr-content">EXPOs</p>
+                      <p className="ltr-content">CONCEPT</p>
                   
-                      <p className="ltr-content"> For Pack & Print</p>
-
                       <span className="rtl-content" style={{display: 'none'}}>للتغليف و الطباعه</span>
                     </h5>
                   </div>
