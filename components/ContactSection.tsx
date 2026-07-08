@@ -3,7 +3,7 @@ export default function ContactSection() {
     <section className="tc-chat-style1">
       <div className="container">
         <div className="content">
-          <a href="#" className="xl-text">edition@nexaexpo.co</a>
+          <a href="#" className="xl-text">info@edition.com</a>
           <h5 className="mb-50 lh-5">Let us help your dream<br />become reality</h5>
         </div>
       </div>
